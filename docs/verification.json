@@ -1,0 +1,215 @@
+{
+  "patch_version": "1.0.0",
+  "revision": "r1",
+  "steam_app_id": 4178790,
+  "steam_build": "26701014",
+  "zip_name": "CLICKY_ISLANDS_KOREAN_PATCH_1.0.0_r1.zip",
+  "zip_sha256": "baf36898ebc314a6a1ab7cfc84bd6eb995f46a6697c11cdbe4ba6064f4962907",
+  "zip_bytes": 7998169,
+  "candidate_pck_sha256": "1fc45c24e863624a84e3b00c4a99066d895505f438b32fbd87cdb9472f19460e",
+  "original_pck_sha256": "9325872cb1415fa2e8ac92821452dd86873357ba3175fd6edd0d68f3c656e19a",
+  "locale_slots_translated": 1078,
+  "direct_strings": 46,
+  "island_names": 50,
+  "static_checks": {
+    "V1_file_boundary": "PASS",
+    "V2_locale_slots": "PASS",
+    "V3_direct_keys": "PASS",
+    "V4_scripts": "PASS",
+    "V5_scenes": "PASS",
+    "V6_fonts": "PASS"
+  },
+  "package_allowlist_files": 11,
+  "delta_roundtrips": "PASS",
+  "installer_tests_pass": 38,
+  "installer_tests_not_applicable": 3,
+  "installer_tests": [
+    {
+      "id": "install_original",
+      "status": "PASS"
+    },
+    {
+      "id": "duplicate_install",
+      "status": "PASS"
+    },
+    {
+      "id": "installed_status",
+      "status": "PASS"
+    },
+    {
+      "id": "remove",
+      "status": "PASS"
+    },
+    {
+      "id": "duplicate_remove",
+      "status": "PASS"
+    },
+    {
+      "id": "reinstall",
+      "status": "PASS"
+    },
+    {
+      "id": "remove_without_backup_reverse_patch",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_unsupported_private_prior_candidate",
+      "status": "PASS"
+    },
+    {
+      "id": "altered_pack",
+      "status": "PASS"
+    },
+    {
+      "id": "updated_executable",
+      "status": "PASS"
+    },
+    {
+      "id": "truncated_game_file",
+      "status": "PASS"
+    },
+    {
+      "id": "missing_game_file",
+      "status": "PASS"
+    },
+    {
+      "id": "missing_changed_file",
+      "status": "PASS"
+    },
+    {
+      "id": "damaged_forward",
+      "status": "PASS"
+    },
+    {
+      "id": "damaged_reverse",
+      "status": "PASS"
+    },
+    {
+      "id": "damaged_decoder",
+      "status": "PASS"
+    },
+    {
+      "id": "invalid_game_path",
+      "status": "PASS"
+    },
+    {
+      "id": "unsafe_manifest_path",
+      "status": "PASS"
+    },
+    {
+      "id": "rollback_after_receipt_write_failure",
+      "status": "PASS"
+    },
+    {
+      "id": "retry_after_receipt_failure",
+      "status": "PASS"
+    },
+    {
+      "id": "remove_after_receipt_failure",
+      "status": "PASS"
+    },
+    {
+      "id": "journal_write_failure",
+      "status": "PASS"
+    },
+    {
+      "id": "rollback_locked_replacement",
+      "status": "PASS"
+    },
+    {
+      "id": "retry_after_file_unlock",
+      "status": "PASS"
+    },
+    {
+      "id": "remove_after_file_unlock",
+      "status": "PASS"
+    },
+    {
+      "id": "second_replacement_rollback",
+      "status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "prepare_backup_corruption",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_corrupt_original_backup",
+      "status": "PASS"
+    },
+    {
+      "id": "retry_interrupted_backup_preparation",
+      "status": "PASS"
+    },
+    {
+      "id": "remove_after_backup_preparation_recovery",
+      "status": "PASS"
+    },
+    {
+      "id": "forced_process_stop",
+      "status": "PASS"
+    },
+    {
+      "id": "resume_after_forced_stop",
+      "status": "PASS"
+    },
+    {
+      "id": "remove_after_forced_stop_recovery",
+      "status": "PASS"
+    },
+    {
+      "id": "prepare_after_replace_interruption",
+      "status": "PASS"
+    },
+    {
+      "id": "recover_after_atomic_replace",
+      "status": "PASS"
+    },
+    {
+      "id": "prepare_stale_journal",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_mismatched_recovery_journal",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_running_target_path_stub",
+      "status": "PASS"
+    },
+    {
+      "id": "steam_additional_library_and_nested_receipt_discovery",
+      "status": "PASS"
+    },
+    {
+      "id": "mixed_partial_file_install",
+      "status": "NOT_APPLICABLE"
+    },
+    {
+      "id": "previous_public_release_update",
+      "status": "NOT_APPLICABLE"
+    }
+  ],
+  "graphics_scope": "첫 화면, 설정 5개 탭, 기본 화면과 툴팁, 항구, 섬 단계 상승, 임무 편지, 허수아비, 항해 화면, 게임 완료 창, 저장 불러오기",
+  "observed_unique_translations": 176,
+  "countable_unique_translations": 702,
+  "unreached_screens": [
+    "시장",
+    "고대 가마솥",
+    "화산(티키 가면)",
+    "괴물 둥지 창",
+    "유닛 고용 패널과 인구 툴팁",
+    "강화 목록",
+    "보물 상자 창",
+    "새 자원 발견 알림·저장 알림",
+    "Steam 찜 버튼(GillSansBold 글꼴, 시스템 글꼴 대체 의존)",
+    "떠오르는 숫자(GillSansBold)",
+    "데모 전용 화면",
+    "정착지 이후 단계의 건물 카드 대부분",
+    "도전 과제 달성 알림",
+    "튜토리얼 2단계 이후의 실제 진행",
+    "통계 탭의 육안 판독"
+  ],
+  "tutorial_videos_kept_in_english": 12,
+  "full_playthrough": "NOT_RUN",
+  "post_install_steam_launch": "NOT_RUN"
+}

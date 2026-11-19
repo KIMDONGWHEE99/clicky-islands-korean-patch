@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "game_id": "CLICKY_ISLANDS",
+  "steam_build": "26701014",
+  "steam_app_id": "4178790",
+  "version": "1.0.0",
+  "candidate": "ko_c03",
+  "baseline": [
+    {
+      "path": "Clicky Islands.exe",
+      "size": 96352256,
+      "sha256": "bdf87c9e9e0f9904419890fad8af90e124dc41edac75d73d338ce9a049fe0c65"
+    },
+    {
+      "path": "Clicky Islands.pck",
+      "size": 159505024,
+      "sha256": "9325872cb1415fa2e8ac92821452dd86873357ba3175fd6edd0d68f3c656e19a"
+    },
+    {
+      "path": "libgodotsteam.windows.template_release.x86_64.dll",
+      "size": 3919872,
+      "sha256": "e6ff4bedb9b4481fa0496f1146fe143d53c945c76107ec2fa95578349efce35c"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 317080,
+      "sha256": "e3fe06e2d802c2f753aeb46869e2af898f34715ce85f08001456fd8a80ecd21e"
+    }
+  ],
+  "changes": [
+    {
+      "path": "Clicky Islands.pck",
+      "original_sha256": "9325872cb1415fa2e8ac92821452dd86873357ba3175fd6edd0d68f3c656e19a",
+      "original_size": 159505024,
+      "patched_sha256": "1fc45c24e863624a84e3b00c4a99066d895505f438b32fbd87cdb9472f19460e",
+      "patched_size": 167377552,
+      "original_absent": false,
+      "forward": "patches/00.forward.xdelta",
+      "forward_roundtrip": {
+        "status": "PASS",
+        "sha256": "1fc45c24e863624a84e3b00c4a99066d895505f438b32fbd87cdb9472f19460e",
+        "delta_sha256": "4ee081d9303a9b654d060cbf256e6f3d7312ecd474cad5f1b5305ad9098373db"
+      },
+      "reverse": "patches/00.reverse.xdelta",
+      "reverse_roundtrip": {
+        "status": "PASS",
+        "sha256": "9325872cb1415fa2e8ac92821452dd86873357ba3175fd6edd0d68f3c656e19a",
+        "delta_sha256": "61e5e51531b84b4e77190826b1a3aef34662d38267b5bc5b93399aa00398f6d5"
+      }
+    }
+  ],
+  "payload": [
+    {
+      "path": "ChooseGame.ps1",
+      "size": 9444,
+      "sha256": "382bddb967db7578051785a2a1536bfe6eba146e11d60c90f7df2e4ef455b9b4"
+    },
+    {
+      "path": "Install.cmd",
+      "size": 185,
+      "sha256": "08a30176373302eacdbc33cecf2a19a1a52da6029ef903f5cce6f26b06b08013"
+    },
+    {
+      "path": "licenses/NotoSansKR-OFL.txt",
+      "size": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "licenses/xdelta3-APACHE-2.0.txt",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "Patch.ps1",
+      "size": 17976,
+      "sha256": "03cf8e39f54e09035a9277b9e5a03f1ef5e8ed9d098c8fc0e6b099bbe39ec62f"
+    },
+    {
+      "path": "patches/00.forward.xdelta",
+      "size": 7822938,
+      "sha256": "4ee081d9303a9b654d060cbf256e6f3d7312ecd474cad5f1b5305ad9098373db"
+    },
+    {
+      "path": "patches/00.reverse.xdelta",
+      "size": 1156,
+      "sha256": "61e5e51531b84b4e77190826b1a3aef34662d38267b5bc5b93399aa00398f6d5"
+    },
+    {
+      "path": "README.txt",
+      "size": 3110,
+      "sha256": "2df56c69bf40ea4a2f85b72eb98b0c87d936c8b8143053bfddc566ec4f57cc9b"
+    },
+    {
+      "path": "Remove.cmd",
+      "size": 187,
+      "sha256": "cd37bc3125b7a486f8ec94c9149f776e975f988a3c0fd41cfbd7aac76c37a845"
+    },
+    {
+      "path": "tools/xdelta3.exe",
+      "size": 336896,
+      "sha256": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0"
+    }
+  ]
+}

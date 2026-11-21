@@ -1,16 +1,31 @@
 {
-  "patch_version": "1.0.0",
+  "patch_version": "1.0.1",
   "revision": "r1",
   "steam_app_id": 4178790,
-  "steam_build": "26701014",
-  "zip_name": "CLICKY_ISLANDS_KOREAN_PATCH_1.0.0_r1.zip",
-  "zip_sha256": "baf36898ebc314a6a1ab7cfc84bd6eb995f46a6697c11cdbe4ba6064f4962907",
-  "zip_bytes": 7998169,
-  "candidate_pck_sha256": "1fc45c24e863624a84e3b00c4a99066d895505f438b32fbd87cdb9472f19460e",
-  "original_pck_sha256": "9325872cb1415fa2e8ac92821452dd86873357ba3175fd6edd0d68f3c656e19a",
-  "locale_slots_translated": 1078,
+  "steam_build": "26823841",
+  "game_version_shown": "1.1.2",
+  "previous_release": {
+    "patch_version": "1.0.0",
+    "revision": "r1",
+    "steam_build": "26701014",
+    "note": "빌드가 달라 이 판의 설치기는 이전 판의 패치 파일을 갱신하지 않고 거부합니다"
+  },
+  "zip_name": "CLICKY_ISLANDS_KOREAN_PATCH_1.0.1_r1.zip",
+  "zip_sha256": "37298283e8ee9f1b22147e3f60708e5e5b248b0a9040f974d79878f5ecc65cac",
+  "zip_bytes": 7998403,
+  "candidate_pck_sha256": "e3ae49304aec59573c97313be9127a9454e8e5a8caa8f86abdc2f388ec4df54b",
+  "original_pck_sha256": "13a7e6c9eb488ece32f4c7f1a8f89d638ed48b3d9d84d794aa76ee3ace4af9ee",
+  "locale_slots_translated": 1082,
   "direct_strings": 46,
   "island_names": 50,
+  "carried_from_previous_release": {
+    "slots_same_source_same_translation": 1045,
+    "slots_source_changed_translation_kept": 25,
+    "slots_translation_new_or_edited": 12,
+    "verification": "PASS"
+  },
+  "strings_classified": 62752,
+  "strings_unknown": 0,
   "static_checks": {
     "V1_file_boundary": "PASS",
     "V2_locale_slots": "PASS",
@@ -21,7 +36,7 @@
   },
   "package_allowlist_files": 11,
   "delta_roundtrips": "PASS",
-  "installer_tests_pass": 38,
+  "installer_tests_pass": 40,
   "installer_tests_not_applicable": 3,
   "installer_tests": [
     {
@@ -54,6 +69,14 @@
     },
     {
       "id": "reject_unsupported_private_prior_candidate",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_remove_on_unsupported_prior_candidate",
+      "status": "PASS"
+    },
+    {
+      "id": "reject_previous_game_build_original",
       "status": "PASS"
     },
     {
@@ -189,13 +212,19 @@
       "status": "NOT_APPLICABLE"
     }
   ],
-  "graphics_scope": "첫 화면, 설정 5개 탭, 기본 화면과 툴팁, 항구, 섬 단계 상승, 임무 편지, 허수아비, 항해 화면, 게임 완료 창, 저장 불러오기",
-  "observed_unique_translations": 176,
-  "countable_unique_translations": 702,
+  "graphics_runs": {
+    "candidate": 5,
+    "original": 2
+  },
+  "graphics_scope": "첫 화면, 설정 5개 탭, 기본 화면과 안내 카드, 항구, 시장, 가마솥, 화산, 섬 단계 상승, 임무 편지, 허수아비, 항해 화면 5개 탭, 게임 완료 창, 저장 불러오기",
+  "graphics_note": "시장과 화산 창은 건물을 짓지 않고 검수용 기능으로 창만 띄워 확인",
+  "observed_unique_translations": 222,
+  "countable_unique_translations": 735,
+  "changed_or_new_translations_seen_on_screen": {
+    "seen": 7,
+    "total": 10
+  },
   "unreached_screens": [
-    "시장",
-    "고대 가마솥",
-    "화산(티키 가면)",
     "괴물 둥지 창",
     "유닛 고용 패널과 인구 툴팁",
     "강화 목록",
@@ -206,10 +235,14 @@
     "데모 전용 화면",
     "정착지 이후 단계의 건물 카드 대부분",
     "도전 과제 달성 알림",
-    "튜토리얼 2단계 이후의 실제 진행",
-    "통계 탭의 육안 판독"
+    "튜토리얼 2단계 이후의 실제 진행(바뀐 제재소 안내문 포함)",
+    "유리 임무 편지(문장 부호만 바뀐 문구)",
+    "시장 건물을 실제로 짓고 유닛을 배치한 상태의 시장 창",
+    "허수아비 자동 돌리기를 켠 상태의 동작",
+    "새 빌드의 숨은 요소(섬 이름 'palpagos'의 전용 음악)"
   ],
   "tutorial_videos_kept_in_english": 12,
   "full_playthrough": "NOT_RUN",
+  "installed_on_author_pc": "PASS",
   "post_install_steam_launch": "NOT_RUN"
 }

@@ -94,7 +94,7 @@ function New-GameLocationForm([string]$Mode, [string[]]$Candidates) {
     [Windows.Forms.Application]::EnableVisualStyles()
     $action = switch ($Mode) { 'Uninstall' { '제거' } 'Status' { '확인' } default { '설치' } }
     $form = [Windows.Forms.Form]::new()
-    $form.Text = 'Clicky Islands 한국어 패치 1.0.0'
+    $form.Text = 'Clicky Islands 한국어 패치 1.0.1'
     $form.Font = [Drawing.Font]::new('맑은 고딕', 10)
     $form.AutoScaleMode = [Windows.Forms.AutoScaleMode]::Font
     $form.ClientSize = [Drawing.Size]::new(700, 220)

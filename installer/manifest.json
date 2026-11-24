@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
   "game_id": "CLICKY_ISLANDS",
-  "steam_build": "26823841",
+  "steam_build": "26856342",
   "steam_app_id": "4178790",
-  "version": "1.0.1",
-  "candidate": "ko_c04",
+  "version": "1.0.2",
+  "candidate": "ko_c05",
   "baseline": [
     {
       "path": "Clicky Islands.exe",
-      "size": 96352256,
-      "sha256": "bdf87c9e9e0f9904419890fad8af90e124dc41edac75d73d338ce9a049fe0c65"
+      "size": 96593408,
+      "sha256": "91299b7802f0870d1708a1a9fbc00e97bfef462e719017f2a12d64b370d9cbce"
     },
     {
       "path": "Clicky Islands.pck",
-      "size": 174716124,
-      "sha256": "13a7e6c9eb488ece32f4c7f1a8f89d638ed48b3d9d84d794aa76ee3ace4af9ee"
+      "size": 174760340,
+      "sha256": "975b2ce47cb52c644d0a850f054748af8ded8e986ac09ce4bd8e6bf92536ebca"
     },
     {
       "path": "libgodotsteam.windows.template_release.x86_64.dll",
@@ -30,22 +30,22 @@
   "changes": [
     {
       "path": "Clicky Islands.pck",
-      "original_sha256": "13a7e6c9eb488ece32f4c7f1a8f89d638ed48b3d9d84d794aa76ee3ace4af9ee",
-      "original_size": 174716124,
-      "patched_sha256": "e3ae49304aec59573c97313be9127a9454e8e5a8caa8f86abdc2f388ec4df54b",
-      "patched_size": 182589196,
+      "original_sha256": "975b2ce47cb52c644d0a850f054748af8ded8e986ac09ce4bd8e6bf92536ebca",
+      "original_size": 174760340,
+      "patched_sha256": "25f958d30aee1baae728dca289a19e8f1e24a05b67b596c6aaa9166603a5f55a",
+      "patched_size": 182633412,
       "original_absent": false,
       "forward": "patches/00.forward.xdelta",
       "forward_roundtrip": {
         "status": "PASS",
-        "sha256": "e3ae49304aec59573c97313be9127a9454e8e5a8caa8f86abdc2f388ec4df54b",
-        "delta_sha256": "a9acd480c45ecda4bf7cb8d0ecd5328b91021ad7a427674a30e4d2aba7a29c88"
+        "sha256": "25f958d30aee1baae728dca289a19e8f1e24a05b67b596c6aaa9166603a5f55a",
+        "delta_sha256": "120ca125601a39cfedd5624b3f6654cbe41c3dad88bcc564b1149a884e779323"
       },
       "reverse": "patches/00.reverse.xdelta",
       "reverse_roundtrip": {
         "status": "PASS",
-        "sha256": "13a7e6c9eb488ece32f4c7f1a8f89d638ed48b3d9d84d794aa76ee3ace4af9ee",
-        "delta_sha256": "ca97d8c61cbae1e54d82b33dbc4ccdff60bbe662b8fe63c388dff3f6f6cf891c"
+        "sha256": "975b2ce47cb52c644d0a850f054748af8ded8e986ac09ce4bd8e6bf92536ebca",
+        "delta_sha256": "229906e1696f2cfe59068298f9815bbfb7fa1ddf7a59046480211ef91437f130"
       }
     }
   ],
@@ -53,7 +53,7 @@
     {
       "path": "ChooseGame.ps1",
       "size": 9444,
-      "sha256": "fff8fb70b948ba31d5811e4e675e905e2778e310868697a0f73bf310a3513ac3"
+      "sha256": "0b5b2f3feb5bf22c06882b7d80f70182d7f91cd60150e8ff13ec1225ad7ff3a0"
     },
     {
       "path": "Install.cmd",
@@ -73,22 +73,22 @@
     {
       "path": "Patch.ps1",
       "size": 17976,
-      "sha256": "bc0ccfadac6dc05a75152f52c325edfbd986b3522b89a192a453c8d5e6c783b3"
+      "sha256": "657a1b90f54cd26c476c3181e9d6c701ad8448375cb3e1f577ebd6aeb041321c"
     },
     {
       "path": "patches/00.forward.xdelta",
-      "size": 7822669,
-      "sha256": "a9acd480c45ecda4bf7cb8d0ecd5328b91021ad7a427674a30e4d2aba7a29c88"
+      "size": 7823245,
+      "sha256": "120ca125601a39cfedd5624b3f6654cbe41c3dad88bcc564b1149a884e779323"
     },
     {
       "path": "patches/00.reverse.xdelta",
       "size": 1173,
-      "sha256": "ca97d8c61cbae1e54d82b33dbc4ccdff60bbe662b8fe63c388dff3f6f6cf891c"
+      "sha256": "229906e1696f2cfe59068298f9815bbfb7fa1ddf7a59046480211ef91437f130"
     },
     {
       "path": "README.txt",
-      "size": 4078,
-      "sha256": "81bf9a9090a030412566845ebefb3a988e88b7500584369f5afb05be1badfdce"
+      "size": 4043,
+      "sha256": "f5143154e12d1e3749034b1907c7030e3250126b43c318cd6789add4c05be551"
     },
     {
       "path": "Remove.cmd",

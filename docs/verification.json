@@ -1,30 +1,45 @@
 {
-  "patch_version": "1.0.1",
+  "patch_version": "1.0.2",
   "revision": "r1",
   "steam_app_id": 4178790,
-  "steam_build": "26823841",
-  "game_version_shown": "1.1.2",
+  "steam_build": "26856342",
+  "game_version_shown": "1.1.3",
+  "engine": "Godot 4.5.1",
+  "game_update_diff": {
+    "locale_slots_source_unchanged": 1136,
+    "locale_slots_changed_or_new": 0,
+    "new_strings_reviewed": 35,
+    "new_strings_visible": 0,
+    "media_files_changed": 0
+  },
+  "screen_text_compared_with_previous_build": {
+    "requests_replayed": 91,
+    "same_or_numbers_only": 76,
+    "different": 15,
+    "different_reason": "무작위로 뽑히는 축복·섬 이름, 수치의 단위 표기, 창이 닫히는 시점",
+    "requests_that_no_longer_work": 0
+  },
   "previous_release": {
-    "patch_version": "1.0.0",
+    "patch_version": "1.0.1",
     "revision": "r1",
-    "steam_build": "26701014",
+    "steam_build": "26823841",
     "note": "빌드가 달라 이 판의 설치기는 이전 판의 패치 파일을 갱신하지 않고 거부합니다"
   },
-  "zip_name": "CLICKY_ISLANDS_KOREAN_PATCH_1.0.1_r1.zip",
-  "zip_sha256": "37298283e8ee9f1b22147e3f60708e5e5b248b0a9040f974d79878f5ecc65cac",
-  "zip_bytes": 7998403,
-  "candidate_pck_sha256": "e3ae49304aec59573c97313be9127a9454e8e5a8caa8f86abdc2f388ec4df54b",
-  "original_pck_sha256": "13a7e6c9eb488ece32f4c7f1a8f89d638ed48b3d9d84d794aa76ee3ace4af9ee",
+  "zip_name": "CLICKY_ISLANDS_KOREAN_PATCH_1.0.2_r1.zip",
+  "zip_sha256": "7436c25d5d2340c729dac2321784235e741a938be43579aa6d094013c7c9a6fc",
+  "zip_bytes": 7998696,
+  "candidate_pck_sha256": "25f958d30aee1baae728dca289a19e8f1e24a05b67b596c6aaa9166603a5f55a",
+  "original_pck_sha256": "975b2ce47cb52c644d0a850f054748af8ded8e986ac09ce4bd8e6bf92536ebca",
   "locale_slots_translated": 1082,
   "direct_strings": 46,
   "island_names": 50,
   "carried_from_previous_release": {
-    "slots_same_source_same_translation": 1045,
-    "slots_source_changed_translation_kept": 25,
-    "slots_translation_new_or_edited": 12,
+    "slots_same_source_same_translation": 1082,
+    "slots_source_changed_translation_kept": 0,
+    "slots_translation_new_or_edited": 0,
     "verification": "PASS"
   },
-  "strings_classified": 62752,
+  "strings_classified": 62754,
   "strings_unknown": 0,
   "static_checks": {
     "V1_file_boundary": "PASS",
@@ -213,16 +228,16 @@
     }
   ],
   "graphics_runs": {
-    "candidate": 5,
-    "original": 2
+    "candidate": 3,
+    "original": 1
   },
   "graphics_scope": "첫 화면, 설정 5개 탭, 기본 화면과 안내 카드, 항구, 시장, 가마솥, 화산, 섬 단계 상승, 임무 편지, 허수아비, 항해 화면 5개 탭, 게임 완료 창, 저장 불러오기",
   "graphics_note": "시장과 화산 창은 건물을 짓지 않고 검수용 기능으로 창만 띄워 확인",
   "observed_unique_translations": 222,
   "countable_unique_translations": 735,
   "changed_or_new_translations_seen_on_screen": {
-    "seen": 7,
-    "total": 10
+    "seen": 0,
+    "total": 0
   },
   "unreached_screens": [
     "괴물 둥지 창",
@@ -235,11 +250,13 @@
     "데모 전용 화면",
     "정착지 이후 단계의 건물 카드 대부분",
     "도전 과제 달성 알림",
-    "튜토리얼 2단계 이후의 실제 진행(바뀐 제재소 안내문 포함)",
-    "유리 임무 편지(문장 부호만 바뀐 문구)",
+    "튜토리얼 2단계 이후의 실제 진행(제재소 안내문 포함)",
+    "유리 임무 편지",
+    "진행 표시가 빠진 목표 문구",
     "시장 건물을 실제로 짓고 유닛을 배치한 상태의 시장 창",
     "허수아비 자동 돌리기를 켠 상태의 동작",
-    "새 빌드의 숨은 요소(섬 이름 'palpagos'의 전용 음악)"
+    "숨은 요소(섬 이름 'palpagos'의 전용 음악)",
+    "이번 빌드에서 바뀐 게임 동작(창 모드로 시작할 때 창 크기를 다시 맞추는 처리)이 사용자의 실제 설정에서 어떻게 보이는지. 검수 실행은 1920×1080 창을 명령줄로 지정함"
   ],
   "tutorial_videos_kept_in_english": 12,
   "full_playthrough": "NOT_RUN",

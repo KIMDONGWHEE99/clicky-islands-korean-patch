@@ -118,7 +118,7 @@ try {
     $null = Get-SafePath $gameRoot 'Clicky Islands.exe'
     $manifestPath = Join-Path $packageRoot 'manifest.json'
     $manifest = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
-    if ($manifest.schema_version -ne 1 -or $manifest.game_id -ne 'CLICKY_ISLANDS' -or $manifest.steam_build -ne '26823841' -or $manifest.steam_app_id -ne '4178790' -or $manifest.version -ne '1.0.1') { throw '지원하지 않는 패치 목록입니다.' }
+    if ($manifest.schema_version -ne 1 -or $manifest.game_id -ne 'CLICKY_ISLANDS' -or $manifest.steam_build -ne '26856342' -or $manifest.steam_app_id -ne '4178790' -or $manifest.version -ne '1.0.2') { throw '지원하지 않는 패치 목록입니다.' }
     $manifestHash = Get-Hash $manifestPath
     foreach ($running in @(Get-Process -Name 'Clicky Islands' -ErrorAction SilentlyContinue)) {
         try { $runningPath = $running.Path } catch { throw '게임 실행 경로를 확인할 수 없습니다. 게임을 종료해 주세요.' }
@@ -167,8 +167,8 @@ try {
     }
     $sha = [Security.Cryptography.SHA256]::Create()
     try { $rootKey = ([BitConverter]::ToString($sha.ComputeHash([Text.Encoding]::UTF8.GetBytes($gameRoot.ToLowerInvariant())))).Replace('-','').Substring(0,16) } finally { $sha.Dispose() }
-    $stateRoot = [IO.Path]::GetFullPath((Join-Path $env:LOCALAPPDATA ('ClickyIslandsKoreanPatch\working_private\'+$rootKey+'\build_26823841')))
-    $null = Get-SafePath ([IO.Path]::GetFullPath($env:LOCALAPPDATA)) ('ClickyIslandsKoreanPatch\working_private\'+$rootKey+'\build_26823841')
+    $stateRoot = [IO.Path]::GetFullPath((Join-Path $env:LOCALAPPDATA ('ClickyIslandsKoreanPatch\working_private\'+$rootKey+'\build_26856342')))
+    $null = Get-SafePath ([IO.Path]::GetFullPath($env:LOCALAPPDATA)) ('ClickyIslandsKoreanPatch\working_private\'+$rootKey+'\build_26856342')
     $null = New-Item -ItemType Directory -Path $stateRoot -Force
     $lockStream = [IO.File]::Open((Get-SafePath $stateRoot 'install.lock'),[IO.FileMode]::OpenOrCreate,[IO.FileAccess]::ReadWrite,[IO.FileShare]::None)
     $journalPath = Get-SafePath $stateRoot 'transaction.json'

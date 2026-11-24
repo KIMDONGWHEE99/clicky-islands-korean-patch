@@ -1,12 +1,12 @@
-# Clicky Islands 한국어 패치 1.0.1
+# Clicky Islands 한국어 패치 1.0.2
 
-[**한글패치 ZIP 다운로드 — 약 7.6MB**](https://github.com/KIMDONGWHEE99/clicky-islands-korean-patch/releases/download/v1.0.1-r1/CLICKY_ISLANDS_KOREAN_PATCH_1.0.1_r1.zip) · [버전·검증 안내](docs/VERIFICATION.md) · [변경 이력](CHANGELOG.md)
+[**한글패치 ZIP 다운로드 — 약 7.6MB**](https://github.com/KIMDONGWHEE99/clicky-islands-korean-patch/releases/download/v1.0.2-r1/CLICKY_ISLANDS_KOREAN_PATCH_1.0.2_r1.zip) · [버전·검증 안내](docs/VERIFICATION.md) · [변경 이력](CHANGELOG.md)
 
-Clicky Islands의 Windows Steam 버전을 위한 비공식 한국어 패치입니다. **Steam 앱 4178790 / 빌드 26823841**(게임 안 표시 1.1.2)를 기준으로 만들었습니다. 원본 게임을 설치한 상태에서 적용하는 차이 패치이며, 게임 원본 파일은 들어 있지 않습니다.
+Clicky Islands의 Windows Steam 버전을 위한 비공식 한국어 패치입니다. **Steam 앱 4178790 / 빌드 26856342**(게임 안 표시 1.1.3)를 기준으로 만들었습니다. 원본 게임을 설치한 상태에서 적용하는 차이 패치이며, 게임 원본 파일은 들어 있지 않습니다.
 
 > **게임이 업데이트되면 패치가 사라집니다.** 이 게임은 업데이트가 잦고, Steam이 파일을 새로 받으면 한국어가 없는 원본으로 돌아갑니다. 설치기는 빌드가 다른 게임에는 적용하지 않고 "게임 버전이 다르거나 파일이 변경됐습니다"라고 알립니다. 그 경우 새 빌드용 판이 올라올 때까지 기다려 주세요.
 >
-> 이전 판 1.0.0은 빌드 26701014 전용이라 지금 게임에는 설치되지 않습니다. 이전 판을 설치했던 분은 따로 제거할 필요 없이 이 판의 `Install.cmd`만 실행하면 됩니다.
+> 이전 판 1.0.1은 빌드 26823841 전용이라 지금 게임에는 설치되지 않습니다. 이전 판을 설치했던 분은 따로 제거할 필요 없이 이 판의 `Install.cmd`만 실행하면 됩니다.
 
 ## 설치·제거
 
@@ -41,4 +41,4 @@ Clicky Islands의 Windows Steam 버전을 위한 비공식 한국어 패치입�
 
 원본 게임 파일·개인 저장·검수용 코드는 배포하지 않습니다. 게임의 권리는 원 권리자(Karrot Games, Pocketpair Publishing)에게 있으며, 포함된 도구와 글꼴의 라이선스는 패치 ZIP과 [licenses](licenses)에 있습니다. 이 저장소는 게임 제작사와 무관한 비공식 패치 배포 저장소입니다.
 
-ZIP SHA-256: `37298283e8ee9f1b22147e3f60708e5e5b248b0a9040f974d79878f5ecc65cac`
+ZIP SHA-256: `7436c25d5d2340c729dac2321784235e741a938be43579aa6d094013c7c9a6fc`
